@@ -5,4 +5,5 @@ const collection = 'bd3_atv2_produtos'
 
 use(database)
 
+
 db[collection].find({})
