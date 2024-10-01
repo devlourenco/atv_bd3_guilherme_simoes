@@ -7,4 +7,4 @@ use(database)
 
 db[collection].find({
     categoria: {$nin: ["Móveis"]}
-}).sort({valor: -1})
+}).sort({valor: -1}).limit(4)

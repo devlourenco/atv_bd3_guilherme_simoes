@@ -6,4 +6,4 @@ use(database);
 
 db[collection].find({
     categoria: {$nin: ["Eletrodomésticos", "Eletrônicos"]}
-})
+}).limit(5)

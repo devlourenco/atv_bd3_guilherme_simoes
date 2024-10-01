@@ -5,5 +5,5 @@ const collection = "bd3_atv2_produtos";
 use(database);
 
 db[collection].find({
-  categoria: {$eq: "Esportes"}
-});
+  valor: { $gte: 150.9, $lte: 200.9 },
+}).limit(6);

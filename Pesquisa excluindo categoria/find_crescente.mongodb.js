@@ -8,4 +8,4 @@ db[collection]
   .find({
     categoria:{$nin: ["Eletrodomésticos"]},
   })
-  .sort({ valor: 1 });
+  .sort({ valor: 1 }).limit(4);
